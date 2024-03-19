@@ -54,6 +54,10 @@ img {
     vertical-align: top;
 }
 
+img {
+    display: block;
+}
+
 img,
 svg {
     max-width: 100%;
