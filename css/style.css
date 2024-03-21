@@ -176,3 +176,73 @@ body {
 .main__img {
     width: 570px;
 }
+
+/* footer */
+.footer {
+    padding-top: 70px;
+    padding-bottom: 90px;
+    background-color: rgb(38, 88, 71);
+    color: #fff;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer__row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__copyright {
+    width: 270px;
+}
+
+.footer__logo {
+    margin-bottom: 26px;
+}
+
+.footer__copyright p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.footer__widgets-wrapper {
+    padding-top: 10px;
+    display: flex;
+}
+
+.footer__widget + .footer__widget {
+    margin-left: 30px;
+}
+
+.info {
+    width: 170px;
+}
+
+.services,
+.contacts {
+    width: 270px;
+}
+
+.footer__widget-title {
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.footer__widger-list {
+    font-size: 18px;
+}
+
+.footer__widger-list li {
+    margin-bottom: 15px;
+}
+
+.footer__widger-list li:last-child {
+    margin-bottom: 0;
+}
