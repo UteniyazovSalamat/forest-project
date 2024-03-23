@@ -41,6 +41,16 @@ body {
     color: #fff;
 }
 
+.header__inner {
+    display: flex;
+    height: 100px;
+    background-color: #265847;
+    background-image: url('./../img/header/header-small-bg.jpeg');
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
 .header__top {
     display: flex;
     justify-content: space-between;
