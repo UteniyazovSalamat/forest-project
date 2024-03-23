@@ -267,3 +267,58 @@ body {
     margin-bottom: 60px;
     text-align: center;
 }
+
+/* cards */
+.cards__wrapper {
+}
+
+.cards__row {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards__row:last-child {
+    margin-bottom: 0;
+}
+
+.cards__column {
+}
+
+.card {
+    width: 570px;
+}
+
+.card-small {
+    width: 670px;
+}
+
+.card__title-wrapper {
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    height: 80px;
+
+    background: rgb(166, 166, 166);
+    color: #fff;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.card__title-wrapper.extreme-color {
+    background-color: rgb(193, 177, 155);
+}
+
+.card__title {
+    font-size: 28px;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.card-5 {
+    width: 470px;
+    height: 760px;
+    background-color: goldenrod;
+}
