@@ -26,7 +26,6 @@ body {
     color: rgb(49, 64, 91);
     font-size: 54px;
     font-weight: 700;
-    line-height: 70px;
 }
 
 /* header */
@@ -255,4 +254,16 @@ body {
 
 .footer__widger-list li:last-child {
     margin-bottom: 0;
+}
+
+/* inner-page-tours */
+.inner__page {
+    padding-top: 60px;
+    padding-bottom: 100px;
+    background-color: rgb(242, 248, 246);
+}
+
+.inner__page-header {
+    margin-bottom: 60px;
+    text-align: center;
 }
